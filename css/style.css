@@ -372,3 +372,29 @@ body {
 [data-theme="dark"] .theme-text {
     color: #fff;
 }
+
+/* Adicione aos seus estilos existentes */
+.progress {
+    height: 8px;
+    background-color: var(--input-bg);
+}
+
+.progress-bar {
+    background-color: #00c7ec;
+    transition: width 0.3s ease;
+}
+
+/* Estilo para inputs de arquivo */
+.form-control[type="file"] {
+    padding: 0.375rem;
+    cursor: pointer;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button {
+    background-color: #00c7ec;
+    color: white;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
